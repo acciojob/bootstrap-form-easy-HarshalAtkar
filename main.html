@@ -14,17 +14,17 @@
 	</head>
 	<main>
 		<form>
-			<label for="first-name-input">First Name</label>
-			<input type="text" id="first-name-input" required>
+			<label for="first-name-input" form-label>First Name</label>
+			<input type="text" id="first-name-input" class="form-control" required>
 			<label for="last-name-input">Last Name</label>
-			<input type="text" id="last-name-input" required>
+			<input type="text" id="last-name-input" class="form-control"required>
 			<label for="email-input">Email</label>
-			<input type="email" placeholder="hariom@gmail" id="email-input" required>
+			<input type="email" placeholder="hariom@gmail" id="email-input" class="form-control" required>
 		   <br>
-			<label for="college-input">Collage Name</label>
-			<input type="text" id="college-input" required>
-			<label for="first-name-input">Graduation Year</label>
-			<select required>
+			<label for="college-input" >Collage Name</label>
+			<input type="text" id="college-input" class="form-control" required>
+			<label for="year">Graduation Year</label>
+			<select id="year" required>
 				<option>Choose</option>
 				<option>2020</option>
 				<option>2021</option>
@@ -32,9 +32,9 @@
 				<option>2023</option>
 			</select>
 			<label for="roll-no-input">Roll No</label>
-			<input type="text" id="roll-no-input">
+			<input type="text" id="roll-no-input" class="form-control" required>
 			<br>
-			<input type="checkbox" for="conditions-checkbox">
+			<input type="checkbox" id="conditions-checkbox">
 			<label for="conditions-checkbox">Agree to term and Condition</label>
 			<br>
 			<button type="submit" style=>Submit form</button>
